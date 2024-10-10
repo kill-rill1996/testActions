@@ -1,7 +1,7 @@
 name: Telegram Bot channel messages
 
 on:
-  push:
+  workflow_dispatch:
 
 env:
   BOT_TOKEN: ${{secrets.BOT_TOKEN}}
