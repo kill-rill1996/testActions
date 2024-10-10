@@ -1,0 +1,11 @@
+name: Telegram Bot channel messages
+
+on:
+  push:
+    
+jobs:
+  Bot-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
