@@ -4,8 +4,8 @@ on:
   push:
 
 env:
-  BOT_TOKEN: {{secrets.BOT_TOKEN}}
-  CHAT_ID: {{secrets.CHAT_ID}}
+  BOT_TOKEN: ${{secrets.BOT_TOKEN}}
+  CHAT_ID: ${{secrets.CHAT_ID}}
     
 jobs:
   Bot-run:
